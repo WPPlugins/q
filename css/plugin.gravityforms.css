@@ -1,0 +1,214 @@
+/* 
+    Document   : gravityforms
+    Created on : 19-Oct-2012, 18:56:17
+    Author     : Ray QL <ray@quintalinda.com>
+    Description: gravityforms styling 
+*/
+
+/* gravity forms */
+
+#container .gform_wrapper {
+    margin: 0; 
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    clear: both;
+}
+
+#container .gform_wrapper form {
+    padding: 0px 0px 20px 0;
+    width: 100%;
+}
+
+#container .gform_heading {
+    display: none;
+    float: left;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+
+#container .gform_wrapper .validation_error {
+    color: black;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin: 17px 0 0px;
+    border-bottom: 1px solid #DDD;
+/*    float: left;
+    width: 505px;*/
+    clear: both;
+    padding: 0px 20px 20px 43px;
+    background: url("../../library/images/icon_warning.png") no-repeat 18px 1px transparent;
+}
+
+#container .gform_wrapper .validation_message {
+    position: absolute;
+    top: -12px;
+    right: 0px;
+    text-align: right;
+}
+
+#container .gform_body {
+    float: left;
+/*    width: 100%;*/
+    clear: both;
+    padding: 4%;
+    width: 92%;
+}
+
+#container .gform_body ul {
+/*    float: none;
+    width: 100%;*/
+    clear: both;
+    margin: 0;
+    padding: 0px !important;
+    width: 98%;
+    overflow: visible;
+}
+
+#container .gform_body ul li {
+    float: left;
+    width: 100%;
+    background: none;
+    padding: 0;
+    position: relative;
+/*    min-height: 63px;*/
+    clear: both;
+}
+
+    
+#container .gform_body ul li > label, #container .gform_body ul li > div {
+    float: left;
+    width: 100%;
+    clear: both;
+}  
+
+#container .gform_wrapper li.gfield {
+    margin: 10px 0px 0px 0; 
+}
+
+#container .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
+/*    margin: 0 !important;*/
+}
+
+#container .gform_wrapper li.gfield.gfield_error, 
+#container .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color: transparent;
+    margin: 10px 5px 0px 0 !important;
+    padding: 0px !important;
+    border: 0px;
+}
+
+#container .gform_wrapper .large {
+    margin: 0; 
+}
+
+#container .gform_wrapper .top_label .gfield_label {
+    margin: 0 0 10px 2%;
+    font-weight: normal;
+    line-height: 1.3em;
+}
+
+#container .gform_wrapper .gfield_required {
+    color: #F1AB00;
+}
+
+#container .gform_wrapper form input[type="text"], 
+#container .gform_wrapper form textarea {
+    padding: 6px 2%;
+    width: 98%;
+}
+
+#container .gform_wrapper form input[type="text"]:focus, 
+#container .gform_wrapper form textarea:focus {
+    background-color: #fff !important;
+}
+
+
+#container .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label, 
+#container .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container {
+    margin-top: 0px;
+}
+
+#container .gform_wrapper li.gfield.gfield_error input[type="text"],
+#container .gform_wrapper li.gfield.gfield_error textarea {
+    background: #ffe0e0;
+    width: 99%;
+}
+
+#container .gform_wrapper form input[type="submit"] {
+    width: 110px;
+}
+
+#container .gform_wrapper form input[type="submit"],
+#container .gform_wrapper form input[type="reset"]{
+    background: url(../../library/images/button_bg.png) repeat 0 0 transparent;
+    color: #fff;
+    padding: 6px 11px 7px;
+    font-weight: normal;
+    cursor: pointer;
+    border: 0;
+    font-size: 1.1em;
+    height: 35px;
+    text-align: center;
+    font-family: inherit;
+    letter-spacing: 0em;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0.5em;
+    width: 110px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+#container .gform_wrapper .gform_footer {
+    text-align: center;
+    margin: 0;
+    padding: 0px 0 0;
+    float: left;
+    width: 100%;
+    clear: both;
+    height: 40px;
+}
+
+#gforms_confirmation_message {
+    font-weight: bold;
+}
+
+
+/* sidebar form */
+#sidebar .gform_wrapper form {
+    padding: 0 0 10px 0px;
+}
+
+#sidebar .gform_wrapper form .gform_body {
+    width: 232px;
+    padding: 0 0 0 8px;
+}
+
+#sidebar .gform_wrapper .validation_message {
+    position: inherit;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+
+#sidebar .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
+    float: left;
+    width: auto;
+    padding: 0 !important;
+}
+
+#sidebar .gform_wrapper form input[type="text"] {
+    width: 183px;
+}
+
+#sidebar .gform_wrapper form textarea {
+    width: 183px;
+}
+
+#sidebar .gform_wrapper .gform_footer {
+    padding: 10px 0 0;
+}

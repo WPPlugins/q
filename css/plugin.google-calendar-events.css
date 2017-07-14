@@ -1,0 +1,71 @@
+/* 
+    Document   : google-calendar-events
+    Created on : 12-Dec-2012, 19:14:11
+    Author     : Ray QL <ray@quintalinda.com>
+    Description: style google-calendar-events plugin
+*/
+
+#content .gce-page-grid {
+    margin-top: -25px;
+}
+
+body #content caption.gce-caption {
+    margin: 0;
+    height: 92px;
+}
+
+#content .gce-next, #content .gce-prev {
+    font-size: 250%;
+}
+
+#content .gce-month-title {
+    font-size: 180%;
+    color: #666666;
+}
+
+#content .gce-page-grid .gce-calendar .gce-has-events {
+    color: white;
+    background: #84C020;
+}
+
+#content .gce-page-grid .gce-calendar .gce-has-events:hover {
+    color: white;
+    background: #00843d;
+}
+
+#content table.gce-calendar tr:first-child {
+    background: #F2F2F2;
+    border-bottom: 2px solid rgba(51, 51, 51, 0.15);
+}
+
+#content .gce-page-grid .gce-calendar th {
+    padding: 8px 0;
+}
+
+#content .gce-page-grid .gce-calendar td {
+    padding: 0;
+}
+
+body .gce-event-info {
+    padding: 10px;
+    max-width: 320px;
+}
+
+body .gce-event-info .gce-tooltip-title {
+    text-transform: uppercase;
+    font-family: "serifa_std65_bold", Georgia, serif;
+    font-weight: normal;
+    color: #00833D;
+    font-size: 1.3em;
+}
+
+body .gce-event-info .gce-tooltip-event {
+    margin: 0 0 14px 0;
+    background: transparent;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+body .gce-event-info p.gce-tooltip-link {
+    margin: 8px 0 0px 0;
+}

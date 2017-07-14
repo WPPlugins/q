@@ -1,0 +1,306 @@
+/* 
+Response CSS
+
+@version 0.1
+@since 0.6
+*/
+
+/**
+ * CSS3BASE Responsive Base
+ */
+audio,canvas,img,math,svg,video{max-width:100%;height:auto}
+embed,iframe,object{max-width:100%}
+
+/* < 960 */
+@media all and ( max-width:960px ) {
+}
+
+/* < 640 */
+@media all and ( max-width:640px ) {
+    body .r-full {
+        width: 620px
+    } 
+    body .r-full-pad {
+        width: 580px;
+        padding-right: 20px;
+        padding-left: 20px;
+    } 
+    body .r-pad {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    body .r-full-inner {
+        width: 580px;
+    }
+    body .r-content {
+        width: 380px;
+        padding: 0 20px 0 0;
+    }
+    body .r-content-inner {
+        width: 380px;
+    }
+    body .r-form {
+        width: 360px;
+        padding: 10px;
+    }
+    body .r-form-input {
+        width: 340px;
+    }
+    body .r-form-input-small {
+        width: 284px;
+    }
+    #wrapper {
+        overflow: hidden;
+    }
+    #header .logo {
+        width: 100%;
+        padding-right: 20px;
+    }
+    #header .logo_desc h1 {
+        font-size: 140%;
+    }
+    #slides {
+        width: 640px;
+    }
+    #slides.slide_wrap .bx-pager {
+        left: 430px;
+    }
+    #slides .left {
+        width: 420px;
+    }
+    #slides .right {
+        width: 180px;
+    }
+    #slides .right .title {
+        font-size: 1.5em;
+    }
+    #slides .right .excerpt {
+        line-height: 1em;
+    }
+    blockquote {
+        width: 85%;
+        padding-left: 15%;
+    }
+    #content .gallery br {
+        clear: none !important;
+    }
+    #container ul.latest-images li img {
+        width: 53px !important;
+        height: 53px !important;
+    }
+    #container .row .about {
+        width: 40%;
+    }
+    #container .row .about .text .link {
+        position: initial;
+    }
+    #container .row ul.newposts {
+        width: 60%;
+    }
+    #content .post-content img {
+        max-width: 200px;
+    }
+    #sidebar {
+        width: 180px
+    }
+    #footer .sitemap, #footer .options {
+        display: none;
+    }
+    #wpadminbar * {
+        font: normal 11px/28px sans-serif;
+    }
+}
+
+/* < 320 */
+@media all and ( max-width:320px ) {
+    body {
+        font-size: 90%;
+    }
+    body .r-full {
+        width: 300px
+    } 
+    body .r-full-pad {
+        width: 300px;
+        padding-right: 10px;
+        padding-left: 10px;
+    } 
+    body .r-pad {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    body .r-full-inner {
+        width: 300px;
+    }
+    body .r-content {
+        width: 280px;
+        padding: 0;
+    }
+    body .r-content-inner {
+        width: 300px;
+    }
+    body .r-form {
+        width: 260px;
+    }
+    body .r-form-input {
+        width: 240px;
+    }
+    body .r-form-input-small {
+        width: 188px;
+    }
+    #wpadminbar {
+        display: none;
+    }
+    #wrapper {
+        overflow: hidden;
+    }
+    #header .logo {
+        width: 100%;
+        padding-right: 20px;
+    }
+    #header .logo .logo_img {
+        width: 50px;
+        height: 50px;
+        margin: 10px 10px 10px 0px;
+    }
+    #header .logo .logo_desc {
+        padding-left: 5px;
+    }
+    #header .logo h1 { margin: 0; }
+    #header .logo_desc h1 {
+        font-size: 120%;
+    }
+    #header .logo, #header .logo .logo_desc {
+        height: 70px;
+        min-height: 70px;
+    }
+    #container {
+        margin: 10px 0;
+    }
+    blockquote {
+        background-image: none;
+    }
+    #slides {
+        width: 320px;
+        height: 200px;
+    }
+    #slides.slide_wrap .bx-pager {
+        display: none;
+    }
+    #slides .left {
+        width: 320px;
+    }
+    #slides .right {
+        display: none;
+    }
+    #slides .right .title {
+        font-size: 1.6em;
+    }
+    #slides .right .excerpt {
+        line-height: 1em;
+    }
+    #container .row .about {
+        width: 90%;
+    }
+    #container .row .about .text {
+        width: 100%;
+        font-size: 1.1em;
+    }
+    #container .row .about .text .link {
+        top: 4px;
+        left: 198px;
+    }
+    #list ul.cat-list li {
+        clear: both;
+        min-height: 90px !important;
+        margin: 0 0px 20px 10px;
+        width: 300px;
+    }
+    #content .post-content img {
+        max-width: 270px;
+    }
+    #content .nav-single .nav-previous {
+        margin: 0 0 15px;
+    }
+    #container form.wpcf7-form p span input, #container form.wpcf7-form p span textarea {
+        width: 96%;
+    }
+    #sidebar {
+        width: 270px;
+    }
+    #container ul.latest-images li img {
+        width: 38px !important;
+        height: 38px !important;
+    }
+    #footer {
+        width: 320px;
+    }
+    #footer .row {
+        width: 280px;
+        padding: 20px;
+    }
+    #footer .footer {
+        display: none;
+    }
+}
+
+/* > 320 */
+@media all and ( min-width:320px ) {
+    #header .logo .logo_img_class, 
+    ul.breadcrumb, 
+    #header .logo .description, 
+    #comments,
+    #container .row ul.newposts, 
+    .hero {
+        display: block
+    }
+    #sidebar {
+        float: right;
+    }
+}
+
+/* > 640 */
+@media all and ( min-width:640px ) {
+    #header .search,
+    #container .row .about img
+    {
+        display: block
+    }
+}
+
+/* > 960 */
+@media all and ( min-width:960px ) {
+}
+
+/* compact top navigation */
+@media all and ( max-width: 640px){
+     
+    /* Nudge margin-top to leave room for handle */
+    body { margin-top: 30px; } 
+
+    /* nav bar */
+    #topbar { position: fixed; float: none; margin: 0; padding: 0; top: 0; left: 0; width: 100%; }
+    #topbar a { color: #000; height: auto; }
+    #topbar a.mobile_handle, #topbar a.mobile_handle:hover { display: block; padding: 10px; background: #a8acbf; text-align: center; line-height: 1.5em; clear: both; }
+    #topbar a:hover { cursor: pointer; color: #fff; }
+    #topbar ul { display: none;  height: auto; }
+    #topbar ul li:hover > ul { display: none; box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0); }
+    #topbar li:hover, #topbar li:hover a, #topbar a:hover { background: inherit; }
+    #topbar ul li { display: block; position: relative; float: none; padding: 0; background: #e3e3e3; border-top: 1px solid #757575; border-bottom: 0; margin: 0; width: 100%; height: auto; line-height: 1.5em; }
+    #topbar .current_page_parent, #topbar .current-menu-parent { border-bottom: 0; }
+    #topbar ul a, #topbar ul a:link, #topbar ul a:visited { color: #000; display: block; position: relative; float: none; padding: 10px 10px; clear: both; height: auto; line-height: 1.5em; }
+
+    /* Second Level */
+    #topbar ul ul { display: none; position: relative; width: 100%; top: 0; left: -1px; margin: 0; padding: 0; background: none; border-bottom: 2px solid #757575;  }
+        #topbar ul ul li { background: #cfcfcf; display: block; position: relative; float: none; padding: 0; border-top: 1px solid #757575; margin: 0; width: 100%; height: auto; }
+        #topbar ul ul a, #topbar ul ul a:link, #topbar ul ul a:visited {  line-height: 1.2em; display: block; position: relative; float: none; color: #000; padding: 10px 10px 10px 25px; clear: both; }
+
+    /* Third level */
+    #topbar ul ul ul { top: 0; left: 0; }
+        #topbar ul ul ul li { background: #b3b3b3;  width: 100%; height: auto; }
+        #topbar ul ul ul a, #topbar ul ul ul a:link, #topbar ul ul ul a:visited {  line-height: 1.2em; padding: 10px 10px 10px 45px; }
+
+    #topbar .sub_nav { position: absolute; right: 0; top: 0; width: 10%; padding: 15px 20px; margin: 0; cursor: pointer; }
+    #topbar .arrow_up { float: right; width: 0; height: 0; padding: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid #000; }
+    #topbar .arrow_down { float: right; width: 0; height: 0; padding: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid #000; }
+
+}

@@ -1,0 +1,70 @@
+/* 
+    Document    : contact-form-7.css
+    Created on  : 28-Oct-2012
+    Author      : Ray QL <ray@quintalinda.com>
+    Description : Contact Form 7 styling 
+    Since       : 0.5
+*/
+
+/* gravity forms */
+
+#container div.wpcf7 {
+    margin: 0; 
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    clear: both;
+}
+
+#container form.wpcf7-form {
+    padding: 4%;
+    width: 90%;
+}
+
+#container form.wpcf7-form p {
+    clear: both;
+}
+
+#container form.wpcf7-form p span {
+    top: 6px;
+}
+
+#container form.wpcf7-form p span input {
+    width: 100%;
+}
+
+#container form.wpcf7-form p span textarea {
+    width: 100%;
+}
+
+#container form.wpcf7-form p span span.wpcf7-not-valid-tip {
+    left: 0;
+    top: 2px;
+    width: 97%;
+    padding: 5px 5px 5px 2%;
+    -moz-box-shadow: inset 0 0 7px #ddd;
+    -webkit-box-shadow: inset 0 0 7px #DDD;
+    box-shadow: inset 0 0 7px #DDD;
+    font-size: 1em;
+    background: salmon;
+    color: white;
+    border-color: #CCC;
+    z-index: 0;
+}
+
+#container form.wpcf7-form div.wpcf7-validation-errors {
+    display: none !important;
+}
+
+#container form.wpcf7-form div.wpcf7-response-output {
+    color: black;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin: 27px 0 0px;
+    border: 0;
+    border-bottom: 1px solid #DDD;
+    clear: both;
+    padding: 0px 20px 20px 43px;
+    background: url("../../library/images/icon_warning.png") no-repeat 18px 1px transparent;
+}
